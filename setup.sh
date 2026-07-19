@@ -1,6 +1,5 @@
 #!/bin/bash
-# Force Python 3.11
-export PYTHON_VERSION=3.11.0
+# Setup script for Render deployment
 
 echo "======================================"
 echo "Setting up Enterprise Data Reliability Platform"
@@ -12,7 +11,7 @@ pip install --upgrade pip
 
 # Install Cython first
 echo "Installing Cython..."
-pip install cython==3.0.0
+pip install cython==0.29.36
 
 # Install all dependencies
 echo "Installing dependencies..."
