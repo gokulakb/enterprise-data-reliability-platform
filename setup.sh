@@ -1,15 +1,27 @@
 #!/bin/bash
-<<<<<<< HEAD
-# Install Python dependencies
+# Force Python 3.11
+export PYTHON_VERSION=3.11.0
+
+echo "======================================"
+echo "Setting up Enterprise Data Reliability Platform"
+echo "Using Python version: $(python --version)"
+echo "======================================"
+
+# Upgrade pip
 pip install --upgrade pip
+
+# Install Cython first
+echo "Installing Cython..."
 pip install cython==3.0.0
+
+# Install all dependencies
+echo "Installing dependencies..."
 pip install -r requirements.txt
 
-# Initialize database
+# Initialize and seed database
+echo "Setting up database..."
 python setup.py
-=======
-pip install --upgrade pip
-pip install cython==3.0.0
-pip install -r requirements.txt
-python setup.py
->>>>>>> b0c4fc0302256ecbd400c5c0c8b7198923707916
+
+echo "======================================"
+echo "Setup complete!"
+echo "======================================"
