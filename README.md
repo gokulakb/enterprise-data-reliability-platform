@@ -385,8 +385,6 @@ Contributions are welcome.
 
 # 📄 License
 
-# 📄 License
-
 This project is intended for educational and portfolio purposes it for personal learning with appropriate attribution.
 
 © 2026 K B Gokula. All rights reserved.
