@@ -2,7 +2,11 @@ services:
   - type: web
     name: enterprise-data-reliability-platform
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      pip install --upgrade pip
+      pip install cython==3.0.0
+      pip install -r requirements.txt
+      python setup.py
     startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
     envVars:
       - key: PYTHON_VERSION
