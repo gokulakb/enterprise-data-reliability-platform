@@ -1,0 +1,21 @@
+customer_id,name,email,created_at,source_timestamp
+101,Acme Corp,acme@example.com,2023-06-01 00:00:00,2023-06-01 00:05:00
+102,TechStart Inc,techstart@example.com,2023-06-15 00:00:00,2023-06-15 00:05:00
+103,Global Solutions,global@example.com,2023-07-01 00:00:00,2023-07-01 00:05:00
+104,DataFlow Ltd,dataflow@example.com,2023-07-15 00:00:00,2023-07-15 00:05:00
+105,CloudWorks,cloudworks@example.com,2023-08-01 00:00:00,2023-08-01 00:05:00
+106,SmartSystems,smartsystems@example.com,2023-08-15 00:00:00,2023-08-15 00:05:00
+107,DigitalEdge,digitaledge@example.com,2023-09-01 00:00:00,2023-09-01 00:05:00
+108,InnovateHub,innovatehub@example.com,2023-09-15 00:00:00,2023-09-15 00:05:00
+109,QuantumTech,quantumtech@example.com,2023-10-01 00:00:00,2023-10-01 00:05:00
+110,NexGen Solutions,nexgen@example.com,2023-10-15 00:00:00,2023-10-15 00:05:00
+111,Apex Digital,apex@example.com,2023-11-01 00:00:00,2023-11-01 00:05:00
+112,CoreLogic,corelogic@example.com,2023-11-15 00:00:00,2023-11-15 00:05:00
+113,ZenData,zendata@example.com,2023-12-01 00:00:00,2023-12-01 00:05:00
+114,CloudSphere,cloudsphere@example.com,2023-12-15 00:00:00,2023-12-15 00:05:00
+115,DataVault,datavault@example.com,2024-01-01 00:00:00,2024-01-01 00:05:00
+116,InfoTech,infotech@example.com,2024-01-15 00:00:00,2024-01-15 00:05:00
+117,Apex Solutions,apexsolutions@example.com,2023-06-01 00:00:00,2023-06-01 00:05:00
+118,Core Systems,coresystems@example.com,2023-06-15 00:00:00,2023-06-15 00:05:00
+119,Zen Solutions,zensolutions@example.com,2023-07-01 00:00:00,2023-07-01 00:05:00
+120,Cloud Solutions,cloudsolutions@example.com,2023-07-15 00:00:00,2023-07-15 00:05:00
